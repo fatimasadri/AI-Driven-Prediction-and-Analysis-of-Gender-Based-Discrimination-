@@ -1,0 +1,73 @@
+AI-Driven Prediction and Analysis of Gender-Based Discrimination in Bahrain
+Overview
+
+This project investigates gender-based discrimination in workplace and academic environments using Machine Learning (ML), Data Mining, Explainable AI (XAI), Azure AutoML, and Retrieval-Augmented Generation (RAG) technologies. The objective is to identify factors associated with discrimination experiences and provide actionable insights that support equality, diversity, and inclusion initiatives aligned with Bahrain Vision 2030 and the United Nations Sustainable Development Goals (SDGs 4, 5, 8, and 10).
+
+Key Features
+Multi-source dataset integration and preprocessing
+Arabic-English survey normalization pipeline
+Binary classification of discrimination experiences
+Class imbalance handling using SMOTE
+Multiple supervised learning algorithms:
+Logistic Regression
+Decision Tree
+Random Forest
+Gradient Boosting
+XGBoost
+Hyperparameter optimization using GridSearchCV
+Explainable AI through feature importance analysis
+K-Means clustering for respondent profiling
+Association Rule Mining (Apriori) for pattern discovery
+Azure AutoML implementation and deployment
+RAG-based chatbot integrated with the deployed model
+Cross-platform validation using Python, Orange Data Mining, and Azure
+Machine Learning Pipeline
+Data Collection
+Data Cleaning and Normalization
+Missing Value Handling
+Feature Encoding
+Train-Test Split
+Feature Scaling
+SMOTE Balancing
+Model Training
+Hyperparameter Optimization
+Model Evaluation
+Explainable AI Analysis
+K-Means Clustering
+Association Rule Mining
+Azure AutoML Deployment
+RAG Chatbot Integration
+Main Findings
+
+The analysis identified several key predictors associated with reported discrimination experiences, including:
+
+Gender Career Influence
+Work-Life Satisfaction
+Perceived Gender Bias
+Workload Distribution
+Mentorship Access
+Grievance Mechanisms
+
+The best-performing ensemble models achieved strong predictive performance while unsupervised learning techniques revealed hidden respondent profiles and recurring workplace patterns associated with discrimination.
+
+Technologies Used
+Python
+Pandas
+NumPy
+Scikit-Learn
+XGBoost
+Imbalanced-Learn (SMOTE)
+Mlxtend
+Orange Data Mining
+Azure Machine Learning
+Azure AutoML
+Azure AI Foundry
+Retrieval-Augmented Generation (RAG)
+Future Enhancements
+Fairness-aware AI metrics
+SHAP explainability
+Real institutional HR datasets
+Longitudinal discrimination analysis
+Advanced LLM-powered policy recommendation systems
+
+This project demonstrates how predictive analytics, explainable machine learning, and generative AI can be combined to support evidence-based decision-making for workplace equality and discrimination prevention.
